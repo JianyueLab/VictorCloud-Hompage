@@ -93,7 +93,7 @@ const disclosureData: DisclosureData = {
   },
 }
 
-export function CommercialDisclosure() {
+export default function CommercialDisclosure() {
   // Reusable section component with proper type
   const DisclosureSection = ({ section }: { section: DisclosureSection }) => (
     <div className="overflow-hidden bg-white shadow sm:rounded-lg">
@@ -161,5 +161,3 @@ export function CommercialDisclosure() {
     </>
   )
 }
-
-export default CommercialDisclosure
